@@ -2,42 +2,56 @@ html, body {
     margin: 0;
 }
 
-h1 {
-    color: black;
+section {
+    margin: 20px;
 }
 
-header {
-    width: 100%;
-    /* position: fixed; */
-    background-color: gainsboro;
+body {
+    background-color: rgb(213, 245, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p {
+    color: black;
+    text-align: left;
 }
 
 nav {
+    width: 100%;
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightskyblue;
+    background-color: rgb(0, 0, 0);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
-a {
+nav a {
     float: left;
     display: block;
-    color: black;
+    color: rgb(255, 254, 254);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: 5px solid black;
+    border-right: 5px solid rgb(0, 0, 0);
 }
   
-a:hover {
-    background-color: white;
-    margin: 0;
+nav a:hover {
+    background-color: rgb(4, 71, 68);
+    color:white;
 }
 
 .active {
-    background-color: blue;
+    background-color: rgb(144, 239, 128);
+    color: black;
+}
+
+.image {
+    float: right;
+}
+
+#kat {
+    width: auto;
+    height: 350px;
 }
