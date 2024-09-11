@@ -7,7 +7,7 @@ section {
 }
 
 body {
-    background-color: rgb(213, 245, 255);
+    background-color: rgb(212, 212, 212);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,6 +16,7 @@ h1, p {
     text-align: left;
 }
 
+/* nav bar*/
 nav {
     width: 100%;
     list-style-type: none;
@@ -38,15 +39,16 @@ nav a {
 }
   
 nav a:hover {
-    background-color: rgb(4, 71, 68);
+    background-color: rgb(38, 0, 255);
     color:white;
 }
 
 .active {
-    background-color: rgb(144, 239, 128);
+    background-color: rgb(172, 252, 255);
     color: black;
 }
 
+/*fotos*/
 .image {
     float: right;
 }
@@ -55,3 +57,38 @@ nav a:hover {
     width: auto;
     height: 350px;
 }
+
+.school {
+    width: auto;
+    height: 250px;
+}
+
+/* table */
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(194, 253, 255);
+}
+
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Progress Bar */
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #98fcb4;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: rgb(0, 0, 0);
+  }
