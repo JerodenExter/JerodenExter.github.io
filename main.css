@@ -63,6 +63,7 @@ nav a:hover {
     height: 250px;
 }
 
+
 /* table */
 table, th, td {
     border: 2px solid black;
@@ -91,4 +92,52 @@ th, td {
     text-align: center; /* To center it horizontally (if you want) */
     line-height: 30px; /* To center it vertically */
     color: rgb(0, 0, 0);
+  }
+
+.linkjes {
+    background-color: #030303;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  #blog1 {
+    width: auto;
+    height: 150px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+  
+  #blog2 {
+    width: auto;
+    height: 150px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 13%;
+  }
+
+  #blog3 {
+    width: auto;
+    height: 150px;
+    float: right;
+    margin-top: 3%;
+  }
+  
+  #blog4 {
+    width: auto;
+    height: 150px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+  
+  #blog5 {
+    width: auto;
+    height: 150px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 10%;
   }
